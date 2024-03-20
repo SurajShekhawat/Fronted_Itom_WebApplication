@@ -1,0 +1,126 @@
+@media only screen and (max-width: 595px){
+
+   h1 {
+      font-size: 2rem !important;
+  }
+
+  .hero-heading p {
+    font-size: 0.8rem!important;
+  }
+
+  .order-btn {
+   font-size: 0.5rem !important;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+   .header_nav {
+    display: none;
+   }
+
+   .open-sidebar{
+    display: flex;
+   }
+
+   #btn{
+    display: none;
+   }
+
+   .download_section_bg {
+      padding: 2rem;
+  }
+
+  .hero-heading {
+   width: 100%;
+}
+
+.card {
+   width: 100% !important;
+   margin: 0.5rem;
+}
+
+h2 {
+   font-size: 1.5rem !important;
+   text-align: center;
+}
+
+.order-btn {
+   font-size: 0.7rem;
+}
+
+.game_section_bg {
+   padding: 2rem;
+}
+
+.download_section_bg a img {
+   width: 75px !important;
+}
+
+.payment_img_box {
+   justify-content: center;
+}
+
+.col-sm-6,
+.col-md-6 {
+   justify-content: center !important;
+   display: flex !important ;
+   align-items: center !important;
+   flex-direction: column !important;
+}
+
+.game_section_bg p {
+   text-align: center;
+}
+
+.download_section_bg p {
+   text-align: center;
+}
+
+.game_section_bg .full-game {
+   position: relative;
+   top: 30px;
+   right: -65px;
+}
+
+.full-game {
+   position: relative;
+   top: 35px;
+}
+
+.server_location_section p {
+   text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 930px){
+   .card {
+      width: 170px;
+      text-align: center;
+  }
+
+  .testimonial_box p{
+   font-size: 0.7rem;
+  } 
+
+  .card__title {
+   font-size: 1rem;
+}
+
+.payment_img_box img {
+   margin: 0.5rem 0.5rem;
+}
+
+.download_section_bg p {
+   font-size: 0.9rem;
+   z-index: 1;
+   position: relative;
+}
+
+.download_section_bg a img {
+   z-index: 1;
+   position: relative !important;
+}
+
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itom Gaming</title>
+    <link rel="shortcut icon" href="/assest/image/favicon-icon.png" type="image/x-icon">
+
+    <!-- ====================================================
+    Browser style ===========================================
+    ========================================================= -->
+    <link rel="stylesheet" href="/assest/style/style.css">
+    <link rel="stylesheet" href="/assest/style/responsive.css">
+    <!-- =====================================================
+    ========================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&display=swap"
+        rel="stylesheet">
+
+    <!-- =====================================================
+    Bootstrap
+    ========================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ======================================================
+    =========================================================== -->
+
+</head>
+
+<body>
+
+    <section class="Hero_sec">
+
+        <!--====================
+             mobile section  
+            ======================-->
+        <div class="side-bar">
+            <ion-icon name="close-outline" class="side-croos" onclick=closeSidebar() ></ion-icon>
+
+            <ul class="side_nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Game Server</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+
+        </div>
+        <!-- ==================
+        ==================== -->
+
+        <!--====================
+             desktop section  
+            ======================-->
+        <div class="header-sec">
+            <img src="/assest/image/menue-logo.png" alt="logo" class="header-logo">
+
+            <ul class="header_nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Game Server</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+
+            <button id="btn">Get Hosting</button>
+            <ion-icon name="menu-outline" onclick=openSidebar() style="font-size: 2rem; color: white;"
+                class="open-sidebar"></ion-icon>
+        </div>
+        <!-- ==================
+        ==================== -->
+
+        <div class="hero-heading">
+            <h4 class="sub__heading">Itom Gaming</h4>
+            <h1>Funk Dungeon</h1>
+            <p>Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis<br> laborum reprehenderit id
+                cillum tempor cupidatat qui nisi proident nostrud<br> dolore.</p>
+            <a href="#" class="order-btn">Order Your Game Server Now</a>
+        </div>
+
+    </section>
+
+    <section class="server__section">
+        <div class="container-lg">
+            <div class="row">
+                <h2>Premium Game Server</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 server__card">
+                    <ion-icon name="options-outline" class="big__icon"></ion-icon>
+                    <h3>Super Quick Setup</h3>
+                    <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis
+                        dolor in.</p>
+                </div>
+                <div class="col-md-3 server__card">
+                    <ion-icon name="hardware-chip-outline" class="big__icon"></ion-icon>
+                    <h3>Premium Hardware</h3>
+                    <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis
+                        dolor in.</p>
+                </div>
+                <div class="col-md-3 server__card">
+                    <ion-icon name="bug-outline" class="big__icon"></ion-icon>
+                    <h3>DDos Protection</h3>
+                    <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis
+                        dolor in.</p>
+                </div>
+                <div class="col-md-3 server__card">
+                    <ion-icon name="headset-outline" class="big__icon"></ion-icon>
+                    <h3>Fast Support</h3>
+                    <p>Dolor minim in pariatur in deserunt laboris eu pariatur labore excepteur cupidatat cupidatat duis
+                        dolor in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full_game_section">
+        <div class="container-lg">
+            <div class="row game_section_bg">
+                <div class="col-md-6">
+                    <h2>Unlock Your Gaming<br> Full Potential</h2>
+                    <p>Aute esse non magna elit dolore dolore dolor sit est. Ea occaecat ea duis laborum reprehenderit
+                        id cillum tempor cupidatat qui nisi proident nostrud dolore id do eiusmod. Lorem ipsum non
+                        labore.</p>
+                    <a href="#" class="order-btn">Order Your Game Server Now</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="/assest/image/section-2-bg-2.webp" alt="full game" class="full-game">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial_section">
+        <div class="container-lg">
+            <div class="row">
+                <h2>4.85 out of 5</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 testimonial_box">
+                    <blockquote>
+                        <p>"When our community needed a reliable server for our esports tournaments, we turned to
+                            Playhost, and they've never let us down. Their servers are perfect for competitive gaming."
+                        </p>
+                        <h6><img src="/assest/image/1.jpg" alt="testimonial"> Daniel H.</h6>
+                    </blockquote>
+                </div>
+                <div class="col-md-3 testimonial_box">
+                    <blockquote>
+                        <p>"The DDoS protection from Playhost is a lifesaver. We used to get attacked regularly, but
+                            since switching to their servers, we haven't had any downtime."</p>
+                        <h6><img src="/assest/image/2.jpg" alt="testimonial"> Bryan G.</h6>
+                    </blockquote>
+                </div>
+                <div class="col-md-3 testimonial_box">
+                    <blockquote>
+                        <p>"I've been using Playhost for my game server needs, and I couldn't be happier. The server
+                            uptime is fantastic, and the customer support team is always quick to assist with any
+                            issues."</p>
+                        <h6><img src="/assest/image/3.jpg" alt="testimonial"> Michael S.</h6>
+                    </blockquote>
+                </div>
+                <div class="col-md-2 testimonial_box">
+                    <blockquote>
+                        <p>"I've been using Playhost for my game server needs, and I couldn't be happier. The server
+                            uptime is fantastic, and the customer support team is always quick to assist with any
+                            issues."</p>
+                        <h6><img src="/assest/image/5.jpg" alt="testimonial"> Michael S.</h6>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="server_location_section">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/assest/image/server-img.webp" alt="server-image" width="100%">
+                </div>
+                <div class="col-md-6">
+                    <h2><span style="color: #5728da;">52</span> servers available worldwide for your game.</h2>
+                    <p>Our collection of game server hosting options encompasses the most in-demand platforms of today.
+                        Within our offerings, you'll discover an extensive array of specialized tools and features
+                        tailored to each game, all of which we diligently keep up to date in sync with game and mod
+                        updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="game_collection_section">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Game Collection</h2>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" class="order-btn">View all games</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-1.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Thunder and City</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-2.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Mystic Racing Z</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-3.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Silent Wrath</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-4.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Funk Dungeon</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-5.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Galactic Odyssey</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-6.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Warfare Legends</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-7.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Raceway Revolution</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="/assest/image/collection-8.webp" alt="collectio_game">
+                        <div class="card__content">
+                            <p class="card__title">Starborne Odyssey</p>
+                            <p class="card__description">Starting at <span>$14.99</span></p>
+                            <button class="purchase_btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download_section">
+        <div class="container-lg">
+            <div class="row download_section_bg">
+                <div class="col-md-6">
+                    <h2>Manage your server <br>from mobile device</h2>
+                    <p>Enim sit laborum enim ut in excepteur aliqua consequat est ut aliquip nostrud sunt deserunt
+                        consequat fugiat adipisicing minim aliquip do adipisicing cupidatat esse ut irure incididunt
+                        ullamco dolor laboris anim ea do ut anim.</p>
+                    <a href="#"><img src="/assest/image/download-appstore.webp" alt="appstore" width="150px"></a>
+                    <a href="#"><img src="/assest/image/download-playstore.webp" alt="appstore" width="150px"></a>
+                </div>
+                <div class="col-md-6">
+                    <img src="/assest/image/dowload-img.webp" alt="full game" class="full-game">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment_section">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h2>We accept</h2>
+                </div>
+                <div class="col-sm-7 payment_img_box">
+                    <img src="/assest/image/american-express.webp" alt="payment_img">
+                    <img src="/assest/image/mastercard.webp" alt="payment_img">
+                    <img src="/assest/image/visa.webp" alt="payment_img">
+                    <img src="/assest/image/skrill.webp" alt="payment_img">
+                    <img src="/assest/image/paypal.webp" alt="payment_img">
+                    <img src="/assest/image/american-express.webp" alt="payment_img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/assest/image/menue-logo.png" alt="logo" width="150px">
+                    <p>Lorem ipsum culpa tempor tempor eu laboris adipisicing sunt excepteur enim laborum officia eiusmod laborum sint do aliqua incididunt est aute deserunt in elit non sed ut velit ullamco aliquip. Nulla cupidatat elit amet sed labore ut et consequat nostrud laboris aliqua ex est fugiat quis aliqua duis quis esse dolor laboris non duis sunt.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Game Server</h3>
+                    <ul>
+                        <li><a href="#">Thunder and City</a></li>
+                        <li><a href="#">Mystic Racing Z</a></li>
+                        <li><a href="#">Silent Wrath</a></li>
+                        <li><a href="#">Funk Dungeon</a></li>
+                        <li><a href="#">Galactic Oddsey</a></li>
+                        <li><a href="#">Warfare Legend</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="#">Game Server</a></li>
+                        <li><a href="#">Knowledgebase</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Affliates</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Follow Us on</h3>
+                    <a href="#"><ion-icon name="logo-linkedin" class="small_icon"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-tiktok" class="small_icon"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram" class="small_icon"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook" class="small_icon"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-dribbble" class="small_icon"></ion-icon></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="row footer_bottom">
+        <p>Copyright &copy; 2024 <a href="#">Itom Game</a> & Developed Suraj Shekhawat</p>
+    </section>
+
+    <!-- =====================================================
+    Bootstrap & IonIcon Script link
+    ========================================================== -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- ========================================================
+    ======================================================== -->
+
+    <!-- ====================================================
+    Browser style ===========================================
+    ========================================================= -->
+    <script src="/assest/javascript/main.js"></script>
+    <!-- =====================================================
+    ========================================================== -->
+</body>
+
+</html>
