@@ -32,7 +32,12 @@
   }
 
   .hero-heading {
-   width: 100%;
+   width: 100% !important;
+   position: relative;
+   height: 80%;
+   left: 0;
+   padding: 0 1rem;
+   align-content: center;
 }
 
 .card {
@@ -90,6 +95,11 @@ h2 {
 
 .server_location_section p {
    text-align: center;
+}
+
+.row {
+   margin: 0;
+   padding: 0;
 }
 
 }
